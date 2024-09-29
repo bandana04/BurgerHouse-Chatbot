@@ -1,0 +1,91 @@
+{"intents": [
+  {"tag" :  "greetings",
+  "patterns" :  ["hello", "hey", "hi", "wassup", "what's up?", "how is it going?","Hello",
+"Hi there",
+"Hey",
+"Namaste",
+"Good morning",
+"Good afternoon",
+"Good evening",
+"What’s up?",
+"Hi, Burger House",
+"Hello, anyone there?"],
+  "responses" :  ["Hello! How can I help you today?",
+"Hi there! Welcome to Burger House. What can I do for you?",
+"Namaste! How may I assist you?",
+"Hey! Hungry for something delicious? Let me know how I can help!",
+"Good to see you! What would you like to know today?",
+"Hi! Looking for our menu or need some help with your order?",
+"Hello! Feel free to ask me anything about Burger House!",
+"Hey! Hope you’re having a great day. What can I do for you?",
+"Welcome! What’s on your mind today?",
+"Hi there! Ready to explore our delicious burgers?"]
+  },
+  {"tag" :  "bye",
+  "patterns" :  ["see yaa", "see you later", "goodbye", "bye", "have a good day", "tata", "thanks", "thank you", "dhanyabad"],
+  "responses" :  ["Goodbye! Have a great day! 😊",
+"Take care! Come back anytime you need something.",
+"Bye for now! Looking forward to serving you again soon!",
+"Hope to see you soon! Enjoy the rest of your day!",
+"Thanks for chatting with me! Stay awesome!",
+"See you next time! Feel free to reach out whenever!",
+"Goodbye! Don’t forget to visit us again for your burger cravings!",
+"Bye! I’ll be here when you're ready to chat again!",
+"See you later! Hope you have an amazing day ahead!",
+"Take care! I’ll be waiting to help you again soon!"]
+  },
+  {
+    "tag": "opening_hours",
+    "patterns": ["What are your opening hours?", "When are you open?", "What time do you open?", "Are you open now?", "How late are you open?"],
+    "responses": ["We are open every day from 9:00 AM to 9:00 PM.", "Our opening hours are from 9:00 AM to 9:00 PM daily.", "We’re open from 9 AM to 9 PM, every day."]
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you located?", "What's your address?", "Where is Burger House?", "How do I find you?", "Location of Burger House?"],
+    "responses": ["Our location is at Putalisadak, Kathmandu.", "We are located at Putalisadak, Kathmandu.", "You can find us at Putalisadak, Kathmandu."]
+  },
+  {
+    "tag": "delivery",
+    "patterns": ["Do you deliver?", "Is delivery available?", "Can I order delivery?", "Do you have delivery services?", "How can I get delivery?"],
+    "responses": ["Yes, we offer delivery through Foodmandu and Pathao Food.", "You can order online via Foodmandu and Pathao Food for delivery.", "Yes! We deliver through popular services like Foodmandu and Pathao Food."]
+  },
+  {
+    "tag": "menu",
+    "patterns": ["What's on the menu?", "Can I see the menu?", "What do you serve?", "Tell me about your menu options", "Show me the full menu"],
+    "responses": [
+      "Here's our full menu:\n\n**Non-Veg Options:**\n- Classic Chicken Burger\n- Beef Lover’s Delight\n- Nepali Spicy Burger\n- Crispy Chicken Wrap\n- Chicken Wings\n- Fried Chicken Combo\n- Momochas (Momo-Burger fusion)\n\n**Veg Options:**\n- Paneer Burger\n- Veggie Delight Burger\n- Veg Wrap\n- French Fries\n- Onion Rings\n- Veggie Nuggets\n- Green Salad"
+    ]
+  },
+  {
+    "tag": "pricing",
+    "patterns": ["How much does it cost?", "What’s the average price?", "How much is a meal for two?", "Is Burger House expensive?", "What's your price range?"],
+    "responses": ["The average cost for two people is between NPR 600 and NPR 1200.", "Our meals are budget-friendly, with combos starting at NPR 350.", "A typical meal for two costs around NPR 600 to NPR 1200."]
+  },
+  {
+    "tag": "parking",
+    "patterns": ["Is there parking?", "Do you have parking?", "Can I park there?", "Is parking available?", "Where can I park?"],
+    "responses": ["Yes, we have space for parking.", "We have enough space for parking", "Parking is available for both 2 and 4 wheelers."]
+  },
+  {
+    "tag": "wifi",
+    "patterns": ["Do you have Wi-Fi?", "Is there free Wi-Fi?", "Can I use Wi-Fi?", "Do you offer internet?", "Do you have Wi-Fi services?"],
+    "responses": ["Yes, we offer free Wi-Fi at all our branches.", "We have free Wi-Fi available for all our customers.", "Enjoy free Wi-Fi while dining at any of our locations."]
+  },
+  {
+    "tag": "pet_friendly",
+    "patterns": ["Are you pet-friendly?", "Can I bring my dog?", "Do you allow pets?", "Is Burger House pet-friendly?", "Are pets allowed?"],
+    "responses": ["Yes. Burger House is pet-friendly.", "Of Course! There is outdoor seating area for pets.", "Yes! We welcome customers with pets."]
+  },
+  {
+    "tag": "special_offers",
+    "patterns": ["Do you have discounts?", "Are there any offers?", "What promotions do you have?", "Any special deals?", "What discounts do you offer?"],
+    "responses": ["We offer student discounts and Happy Hour discounts on weekdays from 4 PM to 6 PM.", "Our current promotions include student discounts and Happy Hour offers from 4 PM to 6 PM.", "Yes! We have student discounts and Happy Hour discounts on combo meals."]
+  },
+  {
+    "tag": "contact",
+    "patterns": ["How can I contact you?", "What is your phone number?", "How do I get in touch?", "Can I contact Burger House?", "What’s the best way to reach you?"],
+    "responses": ["You can reach us through our website, or message us on Facebook or Instagram.", "Feel free to contact us via our website or social media pages.", "You can contact us through Facebook, Instagram, or our website."]
+  }
+]
+
+  }
